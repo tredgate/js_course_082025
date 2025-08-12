@@ -2,9 +2,11 @@
   "name": "js_course_082025",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test:prod": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/tredgate/js_course_082025/issues"
   },
-  "homepage": "https://github.com/tredgate/js_course_082025#readme"
+  "homepage": "https://github.com/tredgate/js_course_082025#readme",
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "chai": "5.2.1",
+    "mocha": "11.7.1",
+    "moment": "^2.30.1"
+  }
 }

@@ -4,6 +4,6 @@
     "module": "ES2020",
     "baseUrl": "./"
   },
-  "include": ["src/**/*.js"],
+  "include": ["src/**/*.js", "tests/**/*.spec.js"],
   "exclude": ["node_modules"]
 }
